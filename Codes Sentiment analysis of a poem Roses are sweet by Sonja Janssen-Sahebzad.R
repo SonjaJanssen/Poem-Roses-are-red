@@ -1,14 +1,14 @@
 ## Codes: by Sonja Janssen-Sahebzad
 ## Codes of sentiment analysis of a poem called:
-## Poem: Roses are red. Violets are blue. I love fishing. And so do you
+## Poem: Roses are red. Violets are blue. 
 ## 
-
+# Install Packages 
 install.packages("syuzhet")
 install.packages("devtools")
 devtools::install_github("mjockers")
 install.packages("ggplot2")
-
 install.packages(mjockers)
+
 # Import libraries
 library(tidyverse)
 library(syuzhet)
