@@ -1,14 +1,14 @@
 ## Codes: by Sonja Janssen-Sahebzad
 ## Codes of sentiment analysis of a poem called:
-## Poem: Roses are red. Violets are blue. 
-## 
-# Install Packages 
+## Poem: Roses are red. Violets are blue. Sugar is sweet, I love coding. And so do you
+
+
 install.packages("syuzhet")
 install.packages("devtools")
 devtools::install_github("mjockers")
 install.packages("ggplot2")
-install.packages(mjockers)
 
+install.packages(mjockers)
 # Import libraries
 library(tidyverse)
 library(syuzhet)
@@ -20,6 +20,7 @@ library(ggplot2)
 poem <- c("Roses are red",
           "Violets are blue",
           "Sugar is sweet",
+          "I love coding and programming",
           "And so do you")
 ## code ok
 
@@ -32,8 +33,8 @@ data <- data.frame(poem, sentiment)
 ## Code Ok
 
 # Plot the sentiment score using ggplot2 package
-ggplot(data, aes(x = 1:4, y = sentiment)) +
-  geom_col(fill = "steelblue") +
-  geom_text(aes(label = poem), hjust = -0.1, size = 4) +
-  scale_x_continuous(breaks = 1:4) +
+ggplot(data, aes(x = 1:5, y = sentiment)) +
+  geom_col(fill = "green") +
+  geom_text(aes(label = poem), hjust = -0.1, size = 3) +
+  scale_x_continuous(breaks = 1:5) +
   labs(x = "Line number", y = "Sentiment score", title = "Sentiment analysis of a poem by sonja Janssen-Sahebzad")
