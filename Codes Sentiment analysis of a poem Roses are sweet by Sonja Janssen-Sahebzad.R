@@ -1,6 +1,6 @@
 ## Codes: by Sonja Janssen-Sahebzad
-## Codes of sentiment analysis of a poem called:
-## Poem: Roses are red. Violets are blue. Sugar is sweet, I love coding. And so do you
+## Codes of sentiment analysis of a poem called: Roses are red.
+## Poem: Roses are red. Violets are blue. Sugar is sweet, I love coding and programming And so do you
 
 
 install.packages("syuzhet")
