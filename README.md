@@ -1,11 +1,9 @@
 ## Code-Poem-Roses-are-red
  # R-programming code Poem by Sonja JS
- 
-# Codes: by Sonja Janssen-Sahebzad
-# Codes of sentiment analysis of a poem called:
-# Poem: Roses are red. Violets are blue. Sugar is sweet, I love coding and programming. And so do you
-# codes created in R.4.2.2 Rstudio
-# Date: 03-07-2023
+   Codes: by Sonja Janssen-Sahebzad
+   Codes of sentiment analysis of a poem
+   codes created in R.4.2.2 Rstudio
+   Date: 03-07-2023
 
 # Load the packages
 install.packages("geomtextpath")
