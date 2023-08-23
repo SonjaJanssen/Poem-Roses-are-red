@@ -1,29 +1,20 @@
 ## Codes: by Sonja Janssen-Sahebzad
-## Codes of sentiment analysis of a poem called:
-## Poem: Roses are red. Violets are blue. Sugar is sweet, I love coding. And so do you
-## codes created in R.4.2.2 Rstudio
+## Codes of sentiment analysis of a poem
+## Poem: Roses are red. Violets are blue. Sugar is sweet, I love coding and programming. And so do you.
+## Codes created in R.4.2.2 Rstudio
 ## Date: 03-07-2023
 
 install.packages("syuzhet")
 install.packages("devtools")
 devtools::install_github("mjockers")
 install.packages("ggplot2")
-
 install.packages("geomtextpath")
-install.packages("Matrix")
 
-
-installed.packages()
 # Import libraries
-library(Matrix)
 library(geomtextpath)
-library(POET)
-library(sentiment.ai)
 library(tidyverse)
-
 library(syuzhet)
 library(devtools)
-library(mjockers)
 library(ggplot2)
 
 # Define the poem as a character vector
