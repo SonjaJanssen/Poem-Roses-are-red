@@ -6,7 +6,7 @@
    Date: 03-07-2023
 
 # Load the packages
-install.packages("geomtextpath")
+# install.packages("geomtextpath")
 install.packages("syuzhet")
 install.packages("devtools")
 devtools::install_github("mjockers")
