@@ -40,4 +40,6 @@ ggplot(data, aes(x = 1:5, y = sentiment)) +
   labs(x = "Line number", y = "Sentiment score", title = "Sentiment analysis of a poem by sonja Janssen-Sahebzad")
 
 ## See  Rplot 09 Poem Roses are red by Sonja Janssen-Sahebzad
+https://github.com/SonjaJanssen/Poem-Roses-are-red/blob/main/Rplot%20Poem%20by%20Sonja%20Janssen-Sahebzad.png
+
 ## codes ok
