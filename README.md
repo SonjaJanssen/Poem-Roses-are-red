@@ -42,4 +42,6 @@ ggplot(data, aes(x = 1:5, y = sentiment)) +
 ## See  Rplot 09 Poem Roses are red by Sonja Janssen-Sahebzad
 https://github.com/SonjaJanssen/Poem-Roses-are-red/blob/main/Rplot%20Poem%20by%20Sonja%20Janssen-Sahebzad.png
 
+https://github.com/SonjaJanssen/Poem-Roses-are-red/blob/main/Rplot%2009%20poem%20Roses%20are%20red%20by%20Sonja%20Janssen-Sahebzad.png 
+
 ## codes ok
