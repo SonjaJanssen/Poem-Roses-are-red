@@ -5,8 +5,8 @@
    codes created in R.4.2.2 Rstudio
    Date: 03-07-2023
 
-# Load the packages
-# install.packages("geomtextpath")
+## Load the packages
+install.packages("geomtextpath")
 install.packages("syuzhet")
 install.packages("devtools")
 devtools::install_github("mjockers")
