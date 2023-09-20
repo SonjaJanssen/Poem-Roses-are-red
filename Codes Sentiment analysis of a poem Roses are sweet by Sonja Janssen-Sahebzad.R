@@ -23,15 +23,15 @@ poem <- c("Roses are red",
           "Sugar is sweet",
           "I love coding and programming",
           "And so do you")
-## code ok
+
 
 # Calculate the sentiment score for each line using syuzhet package
 sentiment <- get_sentiment(poem)
-## code ok
+
 
 # Create a data frame with the poem and the sentiment score
 data <- data.frame(poem, sentiment)
-## Code Ok
+
 
 # Plot the sentiment score using ggplot2 package
 ggplot(data, aes(x = 1:5, y = sentiment)) +
@@ -40,5 +40,5 @@ ggplot(data, aes(x = 1:5, y = sentiment)) +
   scale_x_continuous(breaks = 1:5) +
   labs(x = "Line number", y = "Sentiment score", title = "Sentiment analysis of a poem by sonja Janssen-Sahebzad")
 
-## Zie Rplot 09 Poem Roses are red by Sonja Janssen-Sahebzad
-## codes ok
+##  Rplot 09 Poem Roses are red 
+
